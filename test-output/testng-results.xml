@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T12:08:51 IST" name="Suite" finished-at="2024-07-15T12:09:22 IST" duration-ms="30929">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T12:08:51 IST" name="Test" finished-at="2024-07-15T12:09:22 IST" duration-ms="30929">
+      <class name="com.nopcommerece.qa.tests.Categories">
+        <test-method signature="test1()[pri:0, instance:com.nopcommerece.qa.tests.Categories@42b02722]" started-at="2024-07-15T12:09:22 IST" name="test1" finished-at="2024-07-15T12:09:22 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.nopcommerece.qa.tests.Categories -->
+      <class name="com.nopcommerece.qa.tests.ProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerece.qa.tests.ProductTest@50d13246]" started-at="2024-07-15T12:08:51 IST" name="setUp" finished-at="2024-07-15T12:09:13 IST" duration-ms="21375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewData()[pri:0, instance:com.nopcommerece.qa.tests.ProductTest@50d13246]" started-at="2024-07-15T12:09:13 IST" name="addNewData" finished-at="2024-07-15T12:09:22 IST" duration-ms="9419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewData -->
+      </class> <!-- com.nopcommerece.qa.tests.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

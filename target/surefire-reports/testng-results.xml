@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T12:14:21 IST" name="Surefire suite" finished-at="2024-07-15T12:14:43 IST" duration-ms="21595">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T12:14:21 IST" name="Surefire test" finished-at="2024-07-15T12:14:43 IST" duration-ms="21595">
+      <class name="com.nopcommerece.qa.tests.ProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerece.qa.tests.ProductTest@6aa61224]" started-at="2024-07-15T12:14:21 IST" name="setUp" finished-at="2024-07-15T12:14:32 IST" duration-ms="11183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewData()[pri:0, instance:com.nopcommerece.qa.tests.ProductTest@6aa61224]" started-at="2024-07-15T12:14:32 IST" name="addNewData" finished-at="2024-07-15T12:14:43 IST" duration-ms="10326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewData -->
+      </class> <!-- com.nopcommerece.qa.tests.ProductTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
