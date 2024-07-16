@@ -3,7 +3,7 @@ package com.nopcommerece.qa.tests;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -18,7 +18,7 @@ public class ProductTest {
 		@BeforeTest
 		public void setUp() throws InterruptedException
 		{
-			driver=new ChromeDriver();
+			driver=new FirefoxDriver();
 			driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
 			driver.findElement(By.xpath("//button[@type='submit']")).click();
 			Thread.sleep(2000);

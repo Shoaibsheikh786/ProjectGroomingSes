@@ -44,6 +44,8 @@ public class ProductsPage {
 	PageFactory.initElements(driver, this);	
 	}
 	
+	
+	//driver.findElement(By.xpath("");
 	/** serach the product */
 	@FindBy(xpath="//button[@id='search-products']")
 	WebElement searchBtn;
@@ -66,8 +68,7 @@ public void savaThedata()
 	public void clickOnSearch()
 	{
 		searchBtn.click();
-		
-		
+	
 	}
 	
 	public boolean productAdded()
