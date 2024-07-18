@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopcommerece.qa.tests.Params">
+      <class name="com.nopcommerece.qa.tests.RTests">
         <methods>
           <include name="test1"/>
         </methods>
-      </class> <!-- com.nopcommerece.qa.tests.Params -->
+      </class> <!-- com.nopcommerece.qa.tests.RTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
