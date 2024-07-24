@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 public class Categories {
 	
+	/** @author Hustler  
+	 * returns boolean , true if the data is preent or false */
 	@Test
 	public void test1()
 	{
